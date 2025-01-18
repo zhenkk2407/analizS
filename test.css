@@ -1,0 +1,75 @@
+body{
+    font-family: Inter, sans-serif;
+    background-color: #1a1a1a;
+}
+
+p {
+    margin-left: 1.2em;
+    margin-right: 1em;
+}
+
+.about_lead p{
+    color: white;
+    max-width: 68%;
+    font-weight: 500;
+    font-size: 2.6rem;
+    line-height: 1.2em;
+}
+
+.about_description p{
+    color: #a7a7a7;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    gap: 1rem;
+}
+
+a {
+    
+    text-decoration: none
+}
+
+.ui-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: #292929;
+    text-decoration: none; 
+    transition: background-color 0.3s;
+    border-radius: 1.3rem;
+}
+
+.ui-btn:hover {
+    background-color: #badc5c; /* Цвет при наведении */
+}
+
+.icon {
+    width: 24px; 
+    height: 24px; 
+    fill: white; /* Цвет иконки */
+}
+.right_side{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+} 
+.element{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
